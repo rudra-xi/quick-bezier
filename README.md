@@ -2,6 +2,8 @@
 
 Quick Bezier is a React.js project that provides an intuitive interface for creating and visualizing Bezier animations. This tool is designed to help developers and designers easily access Bezier animations for their web projects.
 
+![Readme](https://github.com/user-attachments/assets/db86d647-22f6-474f-802e-1ccda3b047f6)
+
 ## Features
 
 - **Interactive Bezier animation preview**: Visualize and tweak Bezier curves in real-time.
