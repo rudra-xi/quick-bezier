@@ -14,26 +14,28 @@ Quick Bezier is a React.js project that provides an intuitive interface for crea
 To get started with Quick Bezier, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/quick-bezier.git
+git clone https://github.com/rudra-xi/quick-bezier.git
 cd quick-bezier
 npm install
 ```
 
 ## Usage
 
+### Running the Project
+
 To start the development server, run:
 
-```bash
+```sh
 npm run dev
 ```
 
-This will launch the application in your default web browser. You can then interact with the Bezier curve editor and see the changes in real-time.
+This will start the Vite development server and you can view the project in your browser at `http://localhost:6393`.
 
 ### Building for Production
 
 To build the project for production, run:
 
-```bash
+```sh
 npm run build
 ```
 
