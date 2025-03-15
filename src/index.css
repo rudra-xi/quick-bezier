@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindCSS";
+
+/* Theme variables */
+@theme {
+	--font-fin: "Josefin Sans", sans-serif;
+	--font-rob: "Roboto", sans-serif;
+
+	--color-primary: #7886c7;
+	--color-secondary: #fff2f2;
+	--color-tertiary: #2d336b;
+}
+
+/* Root variables */
+:root {
+	--primary: #7886c7;
+	--secondary: #fff2f2;
+	--tertiary: #2d336b;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+	width: 1px;
+	background: var(--secondary);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--tertiary);
+}
+
+::-webkit-scrollbar-button {
+	display: none;
+}
