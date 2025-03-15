@@ -81,7 +81,7 @@ function Navbar() {
 
 			{/* Mobile Menu */}
 			<div
-				className={`sm:hidden fixed top-0 left-0 w-full h-full bg-tertiary transition-transform duration-500 ease-[cubic-bezier(0.17, 0.81, 0.12, 0.49)] ${
+				className={`sm:hidden fixed top-0 left-0 w-full h-screen bg-tertiary transition-transform duration-500 ease-[cubic-bezier(0.17, 0.81, 0.12, 0.49)] ${
 					isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
 				}`}
 				style={{ zIndex: 10 }}
