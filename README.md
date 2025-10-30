@@ -1,15 +1,20 @@
 # Quick Bezier
 
-Quick Bezier is a React.js project that provides an intuitive interface for creating and visualizing Bezier animations. This tool is designed to help developers and designers easily access Bezier animations for their web projects.
+Quick Bezier is a React.js project that provides an intuitive and refreshed interface for creating and visualizing Bezier animations. This tool is designed to help developers and designers easily access and customize Bezier animations for their web projects.
 
-![Readme](https://github.com/user-attachments/assets/db86d647-22f6-474f-802e-1ccda3b047f6)
+## New
+
+![Preview](./src/Assets/preview.jpg)
+
+## Old
+
+![Preview](https://github.com/user-attachments/assets/db86d647-22f6-474f-802e-1ccda3b047f6)
 
 ## Features
 
 - **Interactive Bezier animation preview**: Visualize and tweak Bezier curves in real-time.
 - **Export curve data**: Easily export curve data for use in your web projects.
-- **Responsive design**: Works seamlessly across different devices and screen sizes.
-- **Customizable animations**: Fine-tune animations with adjustable control points.
+- **Modern UI**: A fresh and modern UI with a new color theme, updated Navbar, Bezier Cards, and Footer.
 
 ## Installation
 
@@ -52,10 +57,7 @@ The project is deployed and can be accessed at: [![Netlify](https://img.shields.
 - **React**: A JavaScript library for building user interfaces.
 - **Vite**: A fast build tool and development server.
 - **TailwindCSS**: A utility-first CSS framework for rapid UI development.
-- **React Type Animation**: A library for creating typewriter animations in React.
-- **Motion**: A library for creating animations and gestures in React.
 - **React Hot Toast**: A library for creating toast notifications in React.
-- **EmailJS**: A service for sending emails directly from JavaScript applications.
 
 ## Contributing
 
@@ -72,12 +74,11 @@ We welcome contributions to Quick Bezier! If you have any ideas, suggestions, or
 
 Here are some planned features and improvements for the future:
 
-- **Add a Curve Graph**: Introduce a graph feature to visualize custom animations.
-- **Enhanced accessibility features**: Improve accessibility for all users.
-- **More interactive animations**: Introduce additional animation options and effects.
+- **Curve Graph**: Introduce a graph feature to visualize custom animations.
 - **Integration with design tools**: Allow seamless integration with popular design tools.
+- **Enhanced accessibility features**: Improve accessibility for all users.
 
-***Your feedback and suggestions are welcome to help shape the future of this project!***
+**_Your feedback and suggestions are welcome to help shape the future of this project!_**
 
 ## Acknowledgements
 
@@ -98,4 +99,4 @@ Here are some planned features and improvements for the future:
 
 ## License
 
-This project is licensed under the MIT License. See the [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](/LICENSE) file for more information.
+This project is licensed under the MIT License. See the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE) file for more information.

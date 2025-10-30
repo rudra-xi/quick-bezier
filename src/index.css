@@ -2,33 +2,48 @@
 
 @import "tailwindcss";
 
-/* Theme variables */
-@theme {
-	--font-fin: "Josefin Sans", sans-serif;
-	--font-rob: "Roboto", sans-serif;
-
-	--color-primary: #7886c7;
-	--color-secondary: #fff2f2;
-	--color-tertiary: #2d336b;
-}
-
 /* Root variables */
 :root {
-	--primary: #7886c7;
-	--secondary: #fff2f2;
-	--tertiary: #2d336b;
+	--accent: #d4af37;
+	--text: #f2ead3;
+	--background: #161e28;
+
+	--font-main: "Josefin Sans", sans-serif;
+	--font-alt: "Roboto", sans-serif;
+}
+
+/* Theme variables */
+@theme {
+	--font-main: var(--font-main);
+	--font-alt: var(--font-alt);
+
+	--color-accent: var(--accent);
+	--color-text: var(--text);
+	--color-background: var(--background);
 }
 
 /* Scrollbar styling */
 ::-webkit-scrollbar {
-	width: 1px;
-	background: var(--secondary);
+	width: 3px;
+	background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
-	background: var(--tertiary);
+	background: var(--accent);
 }
 
 ::-webkit-scrollbar-button {
 	display: none;
+}
+
+@utility card-background {
+	@apply bg-background rounded-2xl border-2 border-text w-full max-w-md;
+}
+
+@utility links-style {
+	@apply hover:scale-105 hover:rotate-6 duration-300 transition-all;
+}
+
+@utility nav-links-style {
+	@apply hover:scale-105 hover:underline underline-offset-2 duration-300 transition-all;
 }

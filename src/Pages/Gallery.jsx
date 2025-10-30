@@ -1,6 +1,7 @@
 import React from "react";
 import { BezierCard, Heading } from "../Components";
 
+// A curated collection of predefined cubic-bezier curves.
 const cubicBezierCurves = {
 	curve1: "cubic-bezier(0.25, 0.1, 0.25, 1)",
 	curve2: "cubic-bezier(0.42, 0, 0.58, 1)",
@@ -34,23 +35,22 @@ const cubicBezierCurves = {
 	curve30: "cubic-bezier(0.5, -0.3, 0.7, 1.5)",
 };
 
+/**
+ * Gallery component displays a curated collection of predefined cubic-bezier animations.
+ * Users can explore and get inspiration from various animation timings.
+ * @returns {JSX.Element} A section displaying a heading and a grid of BezierCards.
+ */
 function Gallery() {
 	return (
 		<section className="py-25">
-			{/* Page heading */}
 			<div>
 				<Heading
 					heading={
 						"Explore a Collection of Stunning Cubic-Bezier Animations!"
 					}
-					tips={
-						"Click on any animation to preview it and copy the CSS code effortlessly!"
-					}
 				/>
 			</div>
-
-			{/* Display Bezier cards */}
-			<div className="flex justify-center flex-wrap gap-4">
+			<div className="flex justify-center flex-wrap gap-3">
 				{Object.entries(cubicBezierCurves).map(([key, value]) => (
 					<BezierCard key={key} cubicBezier={value} />
 				))}
